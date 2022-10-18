@@ -2,7 +2,7 @@
 
 </br>
 
-## USM (Utsho's Assembly) is an Assembly language for [UVM](/uvm)
+## USM (Utsho's Assembly) is an Assembly language for [UVM](https://github.com/utshowmh/uvm)
 
 </br>
 
