@@ -19,10 +19,13 @@ impl USM {
     }
 
     pub fn run(&mut self, source_path: &str, output_path: &str) {
-        self.source = read_to_string(source_path).unwrap_or_else(|err| {
-            eprintln!("USMError: {:#?}", err);
-            exit(1);
-        });
+        self.source = read_to_string(source_path)
+            .unwrap_or_else(|err| {
+                eprintln!("USMError: {:#?}", err);
+                exit(1);
+            })
+            .trim()
+            .to_string();
         if let Some(err) = self.scan() {
             eprintln!("USMError: {:#?}", err);
             exit(1);
