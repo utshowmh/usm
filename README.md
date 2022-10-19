@@ -2,7 +2,7 @@
 
 </br>
 
-## USM (Utsho's Assembly) is an Assembly language for [UVM](https://github.com/utshowmh/uvm)
+## USM (Utsho's Assembly) is an Assembly language for [UVM](https:://github.com/utshowmh/uvm)
 
 </br>
 
@@ -11,7 +11,7 @@
 - Run these command on your shell
   - `apt install git`
   - `apt install rust`
-  - `git clone <https://github.com/utshowmh/usm.git`
+  - `git clone https://github.com/utshowmh/usm.git`
   - `cd usm`
   - `cargo build --release`
 
