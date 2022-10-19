@@ -2,4 +2,4 @@ push 1000
 push 1000
 add
 dump
-hult
+halt
