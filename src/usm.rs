@@ -74,8 +74,8 @@ impl USM {
                         "dump" => {
                             self.instructions.push((InstructionAsByte::Dump, None));
                         }
-                        "hult" => {
-                            self.instructions.push((InstructionAsByte::Hult, None));
+                        "halt" => {
+                            self.instructions.push((InstructionAsByte::Halt, None));
                         }
                         _ => {
                             return Some(USMError::IllegalToken);
