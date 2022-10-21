@@ -2,4 +2,5 @@
 pub enum USMError {
     IllegalToken,
     InvalidArgument,
+    IllegalLabel,
 }

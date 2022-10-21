@@ -1,5 +1,6 @@
 push 1000
 push 1000
 add
-dump
+print
+# stop execution and if not provided throws an error.
 halt

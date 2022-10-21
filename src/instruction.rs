@@ -10,6 +10,6 @@ pub mod InstructionAsByte {
     pub const Subtract: u8 = 7;
     pub const Multipy: u8 = 8;
     pub const Divide: u8 = 9;
-    pub const Dump: u8 = 10;
+    pub const Print: u8 = 10;
     pub const Halt: u8 = 11;
 }

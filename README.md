@@ -1,5 +1,5 @@
-# USM
+# usm
 
 </br>
 
-## USM (Utsho's Assembly) is an Assembler for [UVM](https://github.com/utshowmh/uvm)
+## usm (Utsho's Assembly) is an assembler for [uvm](https://github.com/utshowmh/ul/tree/main/uvm)

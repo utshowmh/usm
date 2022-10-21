@@ -28,5 +28,7 @@
   - sub
   - mult
   - div
-  - dump
+  - print
   - hult
+  - 'label: for defining label
+  - and # for single line comment.
